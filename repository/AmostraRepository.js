@@ -1,4 +1,4 @@
-const Amostra = []
+const amostras = []
 
 export function  cadastrar(amostra) {
     amostras.push(amostra);
@@ -9,9 +9,14 @@ export function listar(){
 }
 
 export function BuscarPorIndice(indice){
-     amostras[indice] = amostra;
+    return amostras[indice];
 }
 
 export function deletar(indice){
     amostras.slipe(indice , 1);
+}
+
+export function atualizar(indice , amostra){
+    amostras[indice] = amostra;
+    
 }
