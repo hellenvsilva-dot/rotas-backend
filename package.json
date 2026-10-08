@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellenvsilva-dot/rotas-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hellenvsilva-dot/rotas-backend/issues"
+  },
+  "homepage": "https://github.com/hellenvsilva-dot/rotas-backend#readme"
+}
